@@ -59,3 +59,4 @@ print(f"before removing key value pair :\n {alien_0}")
 del alien_0['speed']
 print(f"after removing key value pair :\n {alien_0}")
 
+#be careful while using del statement as it removes the key value pair permanently
