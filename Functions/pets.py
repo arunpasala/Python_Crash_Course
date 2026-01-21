@@ -7,3 +7,5 @@ describe_pet('hamster', 'harry')
 describe_pet('dog', 'willie')
 
 #values matched this way are called positional arguments because their position matters.
+#order matter in positional arguments. If we swap the order of the arguments in the fuction call, we will get incorrect results.
+describe_pet('willie', 'dog')  #Incorrect usage of positional arguments
