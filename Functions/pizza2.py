@@ -1,5 +1,7 @@
 #mixing postional and arbitary arguuments:
-def make_pizza(size, *toppings):
+#If you want to a function to accept several different kinds of arguments, 
+#the parameter that accepts an arbitary number of arguments must be placed last in the function defination.
+def make_pizza(size,*toppings):
     """Summarize the pizza we are about to make."""
     print(f"\nMaking a {size}-inch pizza with the following toppings:")
     for topping in toppings:
