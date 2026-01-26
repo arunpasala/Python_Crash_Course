@@ -1,0 +1,18 @@
+Classes:
+
+Object-Oriented programming(oop) is one of the most effective approaches to writing 
+software. In object-Oriented programming, you write classes that represent real-world
+things and situations, and you create object based on these classes. When you write a 
+class, you define the general behavior that a whole category of objects can have..
+
+Making an object from class is called instantiation. and we work with instance of a class.
+
+Capitalized names refer to classes in Python. There are no paranthesis in the class definition,
+because we are creating these classes from scratch.We then write a docstring what this class does.
+
+The _init_() method:
+A function thats part of a class is a method. 
+Everything we learned about the function applies to methods.
+
+The _int_() method is a special method that python runs automatically
+whenever we create a new instance based on the class
