@@ -16,3 +16,15 @@ Everything we learned about the function applies to methods.
 
 The _int_() method is a special method that python runs automatically
 whenever we create a new instance based on the class
+
+
+#Modifying attribute values:
+We can change attriute values in three ways:
+1. Directly through an instance.
+2. Set the value through a method.
+3. Increment the value through a method.
+
+
+#inheritence:
+When we create a child class, the parent class must be part of he current file and must appeat before the child class in the file. We then define the child class the name of the parent class must be included in parantheses in the defination of a child class
+

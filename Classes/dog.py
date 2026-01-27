@@ -20,3 +20,7 @@ print(my_dog.age)    # 2
 
 my_dog.sit()
 my_dog.roll_over()
+
+my_dog = Dog('willie',6)
+print(f"My dog name is: {my_dog.name}")
+print(f"My dog is {my_dog.age} years old")
