@@ -1,0 +1,49 @@
+Built-in Exceptions in Python
+
+In Python, exceptions are instances of classes that derive from BaseException. These exceptions can be raised by the interpreter or built-in functions when errors occur. They can also be raised by user code to signal error conditions. Here are some of the key built-in exceptions in Python:
+
+Base Classes
+
+BaseException: The base class for all built-in exceptions. It is not meant to be directly inherited by user-defined classes. Instead, use Exception for user-defined exceptions.
+
+Exception: The base class for all built-in, non-system-exiting exceptions. All user-defined exceptions should also be derived from this class.
+
+Common Built-in Exceptions
+
+ArithmeticError: The base class for exceptions that occur for various arithmetic errors such as OverflowError, ZeroDivisionError, and FloatingPointError.
+
+AssertionError: Raised when an assert statement fails.
+
+AttributeError: Raised when an attribute reference or assignment fails.
+
+EOFError: Raised when the input() function hits an end-of-file condition without reading any data.
+
+ImportError: Raised when the import statement has trouble loading a module.
+
+IndexError: Raised when a sequence subscript is out of range.
+
+KeyError: Raised when a dictionary key is not found in the set of existing keys.
+
+KeyboardInterrupt: Raised when the user hits the interrupt key (normally Control-C or Delete).
+
+MemoryError: Raised when an operation runs out of memory.
+
+NameError: Raised when a local or global name is not found.
+
+NotImplementedError: Raised when an abstract method requires an inherited class to override the method.
+
+OSError: Raised when a system function returns a system-related error.
+
+OverflowError: Raised when the result of an arithmetic operation is too large to be represented.
+
+RuntimeError: Raised when an error is detected that doesn’t fall in any of the other categories.
+
+StopIteration: Raised by the built-in function next() and an iterator's __next__() method to signal that there are no further items produced by the iterator.
+
+SyntaxError: Raised when the parser encounters a syntax error.
+
+TypeError: Raised when an operation or function is applied to an object of inappropriate type.
+
+ValueError: Raised when an operation or function receives an argument that has the right type but an inappropriate value.
+
+ZeroDivisionError: Raised when the second argument of a division or modulo operation is zero.
