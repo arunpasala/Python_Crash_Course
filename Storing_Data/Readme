@@ -1,0 +1,5 @@
+Many of our programs will ask users to input certain kind of information. We might allow users to store prefernces in a game or provide data for visualization. Whenever the focus of our program is, we'll store the information user provide in data structures such as lists and dictionaries. When users close a program. we'll almost want to save the information they entered. A simple way to do this involves storing your data using the json module.
+  The json module allow us to convert simple python data structures into JSON-formatted strings, and then load the data from the file next time the program runs. You can also use json to share data between different python programs.
+Even better the Json data format is not specific to python, so we can share data we store in the json format with people who work in many other programming languages, It's a useful and portable format, and it's easy to learn.
+
+Note: JSON (javascript object notation) format originally developed for javascript program. However, it has since become a common format used by many languages including python.
