@@ -1,0 +1,12 @@
+Testing is very import to see the code work as it used to work
+
+unit testing: A unit test verifies that one specific aspect of a function's behavior is correct.
+
+A test case is a collection of unit tests that together prove that a function behaves as its supposed to, within the full range if situation you except to handle.
+
+The name of a test file is important; it must start with test_ . when we as pytest to run the test we've written it will look for any file that begins with test_, and run all the tests it finds in that file.
+
+Test names should be longer and descriptive than a typical function name, we will never call the function ourself,  pytest will find the function and run it for us.
+
+
+Assertion: An assertion is a claim about a condition.
